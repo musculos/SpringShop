@@ -8,10 +8,7 @@ package shop.service;
 import java.util.*;
 import shop.entities.Category;
 
-/**
- *
- * @author dnis 
- */
+
 public interface CategoryService {
    public List<Category> findAll();  
    

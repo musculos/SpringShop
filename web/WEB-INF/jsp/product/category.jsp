@@ -10,7 +10,7 @@
             <div class="bottom-grid-top">
                 <a href="${pageContext.request.contextPath }/product/details/${product.id}.htm "><img
                                 src="${pageContext.servletContext.contextPath }/assets/images/${product.photo}"
-                                alt="" class="thumb" border="0"></a>
+                                alt=""></a>
                     <div class="five">
                         <h6>-50%</h6>
                     </div>

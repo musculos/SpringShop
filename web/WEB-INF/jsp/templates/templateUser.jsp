@@ -336,21 +336,23 @@
 
 			<div class="col-md-3 col-md">
                             <div class=" possible-about">
-					<h4>Sort Products</h4>
+					<h4>Categorias</h4>
 						<div class="tab1">
 							<ul class="place">
 								
-								<li class="sort">Sort by <span>price</span></li>
+								<li class="sort">Category<span></span></li>
 								<li class="by"><img src="images/do.png" alt=""></li>
 									<div class="clearfix"> </div>
+                                                                
 							</ul>
-							<div class="single-bottom">
+                                            <div class="single-bottom">
 						
-						
+						<c:forEach var="product" items="${products }">
 						<a href="#">
 							<input type="checkbox"  id="brand" value="">
-							<label for="brand"><span></span><b>Rs.3000-Rs.4000</b></label>
+							<label for="brand"><span></span><b>${category.name}</b></label>
 						</a>
+                                                </c:forEach><!--
 						<a href="#">
 							<input type="checkbox"  id="brand1" value="">
 							<label for="brand1"><span></span> <b>Rs.3000-Rs.2000</b></label>
@@ -366,9 +368,9 @@
 						<a href="#">
 							<input type="checkbox"  id="brand4" value="">
 							<label for="brand4"><span></span><b>Rs.500-below</b></label>
-						</a>
+						</a>-->
 						
-					</div>
+                                                </div>
 
 						</div>
 						<div class="tab2">
